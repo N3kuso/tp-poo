@@ -1,0 +1,21 @@
+class GpioLed
+!!!148482.cpp!!!	begin() : void
+
+  pinMode (get_id(), OUTPUT);
+  digitalWrite (get_id(),! get_anode());
+!!!148610.cpp!!!	set(in s : bool = true) : void
+
+  if (get_anode() == false) {
+
+    s = !s;
+  }
+  digitalWrite (get_id(),s);
+!!!148738.cpp!!!	state() : bool
+  bool b = digitalRead (get_id());
+
+  if (get_anode() == false) {
+
+    b = !b;
+  }
+
+  return b;

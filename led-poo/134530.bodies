@@ -1,0 +1,7 @@
+class Led
+!!!134786.cpp!!!	toggle() : void
+  set(!state());
+!!!141442.cpp!!!	get_id() : int
+  return id;
+!!!141570.cpp!!!	get_anode() : bool
+  return anode;

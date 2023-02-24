@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="tp-poo" Database="" Version="10.0.0">
+  <Project Name="gpioled-test" Path="gpioled-test/gpioled-test.project" Active="No"/>
+  <Project Name="blink" Path="blink/blink.project" Active="No"/>
+  <Project Name="pcfled-test" Path="pcfled-test/pcfled-test.project" Active="No"/>
+  <Project Name="blink-pcf" Path="blink-pcf/blink-pcf.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="gpioled-test" ConfigName="Debug"/>
+      <Project Name="blink" ConfigName="Debug"/>
+      <Project Name="pcfled-test" ConfigName="Debug"/>
+      <Project Name="blink-pcf" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="gpioled-test" ConfigName="Release"/>
+      <Project Name="blink" ConfigName="Release"/>
+      <Project Name="pcfled-test" ConfigName="Release"/>
+      <Project Name="blink-pcf" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
