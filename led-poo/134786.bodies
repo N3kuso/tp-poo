@@ -1,0 +1,9 @@
+class PcfLed
+!!!175106.cpp!!!	set(in s : bool = true) : void
+  pcf8574.digitalWrite (get_id(), !s);
+!!!175234.cpp!!!	state() : bool
+  return ! pcf8574.digitalRead (get_id());
+!!!175362.cpp!!!	begin() : void
+  pcf8574.begin();
+  pcf8574.pinMode (get_id(), OUTPUT);
+  pcf8574.digitalWrite (get_id(), true);
